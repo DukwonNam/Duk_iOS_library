@@ -11,10 +11,11 @@
 		179933561E4803F6006198D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933551E4803F6006198D0 /* AppDelegate.m */; };
 		179933591E4803F6006198D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933581E4803F6006198D0 /* ViewController.m */; };
 		1799335C1E4803F6006198D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1799335A1E4803F6006198D0 /* Main.storyboard */; };
-		1799335E1E4803F6006198D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1799335D1E4803F6006198D0 /* Assets.xcassets */; };
 		179933611E4803F6006198D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1799335F1E4803F6006198D0 /* LaunchScreen.storyboard */; };
 		1799336C1E4803F7006198D0 /* iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1799336B1E4803F7006198D0 /* iosTests.m */; };
 		179933771E4803F7006198D0 /* iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933761E4803F7006198D0 /* iosUITests.m */; };
+		179933881E4810E2006198D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179933871E4810E2006198D0 /* Images.xcassets */; };
+		1799338A1E48125F006198D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179933891E48125F006198D0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 		179933571E4803F6006198D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		179933581E4803F6006198D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1799335B1E4803F6006198D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1799335D1E4803F6006198D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		179933601E4803F6006198D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		179933621E4803F6006198D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179933671E4803F7006198D0 /* iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +51,8 @@
 		179933721E4803F7006198D0 /* iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		179933761E4803F7006198D0 /* iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosUITests.m; sourceTree = "<group>"; };
 		179933781E4803F7006198D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179933871E4810E2006198D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		179933891E48125F006198D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +103,16 @@
 		179933501E4803F6006198D0 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				179933891E48125F006198D0 /* Assets.xcassets */,
 				179933541E4803F6006198D0 /* AppDelegate.h */,
 				179933551E4803F6006198D0 /* AppDelegate.m */,
 				179933571E4803F6006198D0 /* ViewController.h */,
 				179933581E4803F6006198D0 /* ViewController.m */,
 				1799335A1E4803F6006198D0 /* Main.storyboard */,
-				1799335D1E4803F6006198D0 /* Assets.xcassets */,
 				1799335F1E4803F6006198D0 /* LaunchScreen.storyboard */,
 				179933621E4803F6006198D0 /* Info.plist */,
 				179933511E4803F6006198D0 /* Supporting Files */,
+				179933871E4810E2006198D0 /* Images.xcassets */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -248,7 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				179933611E4803F6006198D0 /* LaunchScreen.storyboard in Resources */,
-				1799335E1E4803F6006198D0 /* Assets.xcassets in Resources */,
+				179933881E4810E2006198D0 /* Images.xcassets in Resources */,
+				1799338A1E48125F006198D0 /* Assets.xcassets in Resources */,
 				1799335C1E4803F6006198D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
