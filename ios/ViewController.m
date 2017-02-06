@@ -8,10 +8,6 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -25,5 +21,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)helloWorldBtn:(id)sender {
+//    [helloworldText setText:@"Hell world~~"];
+    
+    /*******************************************
+     * UIAlertView usage    | meaning
+     * ---------------------|-------------------
+     * initWithTitle        | Popup Title
+     * message              | Popup Message
+     * delegate             | ??
+     * cancelButtonTitle    | Cancel button
+     * otherButtonTitles    | additional buttons
+     *******************************************/
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello world"
+                                                    message:@"Hello message~"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"cancel Btn"
+                                          otherButtonTitles:@"Good", @"No~", nil
+                          ];
+    alert.show;
+}
 
 @end

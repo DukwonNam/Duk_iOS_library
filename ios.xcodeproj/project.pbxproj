@@ -103,7 +103,6 @@
 		179933501E4803F6006198D0 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				179933891E48125F006198D0 /* Assets.xcassets */,
 				179933541E4803F6006198D0 /* AppDelegate.h */,
 				179933551E4803F6006198D0 /* AppDelegate.m */,
 				179933571E4803F6006198D0 /* ViewController.h */,
@@ -112,6 +111,7 @@
 				1799335F1E4803F6006198D0 /* LaunchScreen.storyboard */,
 				179933621E4803F6006198D0 /* Info.plist */,
 				179933511E4803F6006198D0 /* Supporting Files */,
+				179933891E48125F006198D0 /* Assets.xcassets */,
 				179933871E4810E2006198D0 /* Images.xcassets */,
 			);
 			path = ios;
