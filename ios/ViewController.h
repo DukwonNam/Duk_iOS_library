@@ -10,8 +10,9 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UITextField *helloworldText;
+@property (weak, nonatomic) IBOutlet UITextField *helloWorldText;
 @property (weak, nonatomic) IBOutlet UIButton *helloWorldBtn;
+@property (weak, nonatomic) IBOutlet UIImageView *helloWorldImage;
 
 @end
 

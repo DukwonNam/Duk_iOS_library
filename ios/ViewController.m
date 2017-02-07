@@ -10,18 +10,27 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"ViewController viewDidLoad");
+    
+    [_helloWorldImage setImage:[UIImage imageNamed:@"app_icon.png"]];
+    _helloWorldImage.autoresizesSubviews = YES;
+    _helloWorldImage.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+    
+    
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSLog(@"ViewController didReceiveMemoryWarning");
 }
 
-- (IBAction)helloWorldBtn:(id)sender {
+- (IBAction)actionHelloWorldBtn:(id)sender {
 //    [helloworldText setText:@"Hell world~~"];
     
     /*******************************************
