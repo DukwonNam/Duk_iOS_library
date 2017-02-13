@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171C46C11E4EF56000716491 /* BNRHypnosisController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C46C01E4EF56000716491 /* BNRHypnosisController.m */; };
+		171C46C41E4EFC9900716491 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 171C46C31E4EFC9900716491 /* BNRHypnosisView.m */; };
 		179933531E4803F6006198D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933521E4803F6006198D0 /* main.m */; };
 		179933561E4803F6006198D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933551E4803F6006198D0 /* AppDelegate.m */; };
 		179933591E4803F6006198D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 179933581E4803F6006198D0 /* ViewController.m */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171C46BF1E4EF4E700716491 /* BNRHypnosisController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisController.h; sourceTree = "<group>"; };
+		171C46C01E4EF56000716491 /* BNRHypnosisController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisController.m; sourceTree = "<group>"; };
+		171C46C21E4EFC0900716491 /* BNRHypnosisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
+		171C46C31E4EFC9900716491 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
 		1799334E1E4803F6006198D0 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179933521E4803F6006198D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		179933541E4803F6006198D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -83,6 +89,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171C46BE1E4EF16200716491 /* Hypnosis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hypnosis;
+			sourceTree = "<group>";
+		};
+		171C46C51E4F022B00716491 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				17E60D6B1E4C081600EFD9DF /* Quiz */,
+				17E60D6C1E4C08D600EFD9DF /* QuizViewController.h */,
+				17E60D6D1E4C0F4500EFD9DF /* QuizViewController.m */,
+				171C46BE1E4EF16200716491 /* Hypnosis */,
+				171C46BF1E4EF4E700716491 /* BNRHypnosisController.h */,
+				171C46C01E4EF56000716491 /* BNRHypnosisController.m */,
+				171C46C21E4EFC0900716491 /* BNRHypnosisView.h */,
+				171C46C31E4EFC9900716491 /* BNRHypnosisView.m */,
+			);
+			name = Learning;
+			sourceTree = "<group>";
+		};
 		179933451E4803F6006198D0 = {
 			isa = PBXGroup;
 			children = (
@@ -106,7 +134,7 @@
 		179933501E4803F6006198D0 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				17E60D6B1E4C081600EFD9DF /* Quiz */,
+				171C46C51E4F022B00716491 /* Learning */,
 				179933541E4803F6006198D0 /* AppDelegate.h */,
 				179933551E4803F6006198D0 /* AppDelegate.m */,
 				179933571E4803F6006198D0 /* ViewController.h */,
@@ -150,8 +178,6 @@
 		17E60D6B1E4C081600EFD9DF /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				17E60D6C1E4C08D600EFD9DF /* QuizViewController.h */,
-				17E60D6D1E4C0F4500EFD9DF /* QuizViewController.m */,
 			);
 			name = Quiz;
 			sourceTree = "<group>";
@@ -293,6 +319,8 @@
 			files = (
 				179933591E4803F6006198D0 /* ViewController.m in Sources */,
 				179933561E4803F6006198D0 /* AppDelegate.m in Sources */,
+				171C46C41E4EFC9900716491 /* BNRHypnosisView.m in Sources */,
+				171C46C11E4EF56000716491 /* BNRHypnosisController.m in Sources */,
 				179933531E4803F6006198D0 /* main.m in Sources */,
 				17E60D6E1E4C0F4500EFD9DF /* QuizViewController.m in Sources */,
 			);
