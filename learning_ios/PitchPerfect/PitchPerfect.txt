@@ -1,0 +1,28 @@
+# Intro to iOS App Development with Swift
+
+1: Swift and Xcode
+2: App structure: How to connect UI elements to the code
+3: Multiple Views: Adding multiple views
+4, 5: How to play back the recorded voice with various alterations
+
+1. Introduction and Xcode
+1) All the Swift You Need To Know in 5 Mins
+- 
+
+Learn Swift Programming Syntax
+
+# MVC pattern
+- Model: data
+- View: UI
+- Controller: control
+
+MVC pattern은 80년대에 MAC을 개발해던 시기에 탄생
+View ---Action--> Controller ---Update--> Model
+View <--Update--- Controller <--Notify--- Model
+
+예를들어 똑같은 데이터에 여러개의 View를 가질때 장점을 가진다.
+각 계층으로 역할을 나눔으로서 유지보수가 쉬워진다.
+
+# iOS 앱에서의 MVC패턴
+- View: UIView, UILabel, UIButton
+- Controller: ViewController.swift class
